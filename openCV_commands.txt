@@ -1,0 +1,76 @@
+
+
+Check Python versions
+
+ 5047  pyenv versions
+
+Check Virtual environments in the directory
+
+ 5048  pipenv --venv
+
+Configure Git for the project
+ 5049  git init
+ 5050  git config user.name "crabsraghuveer"
+ 5051  git config user.email "crabsraghuveer@gmail.com"
+ 5052  git config user.name "harshacrabs"
+ 5053  git config user.email "rkarrotu@usf.edu"
+ 5054  pipenv --venv
+ 5057  pyenv versions
+ 5058  pipenv --python 3.11.1
+ 5059  pipenv shell
+ 5060  cursor .
+ 5061* /Users/hk/.pyenv/versions/3.10.16/bin/python /Users/hk/.cursor/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/hk/.cursor/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+
+
+
+ 5063  pipenv install opencv-python
+ 5064  pipenv requirements > requirements.txt
+ 5065  mkdir read_images
+ 5066  cd read_images
+ 5067  cd ..
+ 5068  mkdir images
+ 5069  mkdir videos
+
+
+ 5088* python3 read_images/read_image.py
+ 5089* pwd
+ 5090* ls images/face.png
+ 5091* python3 read_images/read_image.py
+ 5092* cd read_images
+ 5093* cd ..
+ 5094* cd read_videos
+ 5095* python3 read_video.py
+
+
+
+ Commit the changes and push to remote repo.
+
+
+ 5097  git add .
+ 5098  git commit -m "open-cv intro-read img and vids"
+ 5099  git branch -m main
+ 5100  touch gitignore
+ 5101  touch .gitignore
+ 5102  nano .gitignore
+ 5103  git add .
+ 5104  git commit -m "gitignore added"
+ 5105  git remote -v
+
+
+ 5106  git remote add origin git@github-college:harshacrabs/OpenCV-Projects.git
+ 5107  git push -u origin main
+ 5108  git remote -v
+
+
+ 5109* /Users/hk/.pyenv/versions/3.10.16/bin/python /Users/hk/.cursor/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/printEnvVariablesToFile.py /Users/hk/.cursor/extensions/ms-python.python-2025.6.1-darwin-arm64/python_files/deactivate/zsh/envVars.txt
+
+Add second git repo
+
+ 5110  git remote add raghucrabs git@github-personal:raghucrabs/OpenCV-Projects.git
+ 5111  git push raghucrabs main
+ 5112* cd ..
+
+
+ 5113* python3 1_basic_functions/image_gray_scale.py
+ 5114* python3 1_basic_functions/image_blur.py
+
